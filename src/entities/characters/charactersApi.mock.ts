@@ -1,15 +1,10 @@
-import ThreeD from '../assets/3d.jpg';
-import Abom from '../assets/abom.jpg';
-import Abraks from '../assets/abraks.jpg';
-import Abram from '../assets/abram.jpg';
-import Absor from '../assets/absor.jpg';
-import Adam from '../assets/adam.jpg';
-import Abys from '../assets/abys.jpg';
-import Comics1 from '../assets/comics1.jpg';
-import Comics2 from '../assets/comics2.jpg';
-import Comics3 from '../assets/comics3.jpg';
-import Comics4 from '../assets/comics4.jpg';
-import Comics5 from '../assets/comics5.jpg';
+import ThreeD from '../../assets/3d.jpg';
+import Abom from '../../assets/abom.jpg';
+import Abraks from '../../assets/abraks.jpg';
+import Abram from '../../assets/abram.jpg';
+import Absor from '../../assets/absor.jpg';
+import Adam from '../../assets/adam.jpg';
+import Abys from '../../assets/abys.jpg';
 
 
 export const charactersArray = [
@@ -79,70 +74,37 @@ export const charactersArray = [
     },
   ];
 
-
-  export const comicsArray = [
+  export const characterMock = [
     {
-      id: '0',
-      Image: Comics1,
-      title: 'Эра Альтрона. Книга 2',
-      description: 'Финал эпического путешествия сквозь время и пространство',
+      name: '3D-Man (Трехмерный Человек)',
+      link: 'https://www.strangearts.ru/heroes/3d-man',
     },
     {
-      id: '1',
-      Image: Comics2,
-      title: 'Эра Альтрона. Книга 1',
-      description: 'Комикс, вдохновивший блокбастер "Мстители 2"!',
+      name: 'Abomination (Мерзость)',
+      link: 'https://www.strangearts.ru/heroes/abomination',
     },
     {
-      id: '2',
-      Image: Comics3,
-      title: 'Гамбит. Том 1. Рожденный вором...',
-      description: 'главный вор-мутант вселенной Marvel взваливает на себя слишком много, ',
+      name: 'Abraham Van Helsing (Абрахам Ван Хельсинг)',
+      link: 'https://www.strangearts.ru/heroes/van-helsing',
     },
     {
-      id: '3',
-      Image: Comics4,
-      title: 'Дэдпул. Том 3',
-      description:
-        'Когда Циклоп объявил на весь мир, что Люди Икс создают на острове пристанище для мутантов,',
+      name: 'Abraxas (Абраксас)',
+      link: 'https://www.strangearts.ru/heroes/abraxas',
     },
     {
-      id: '4',
-      Image: Comics5,
-      title: 'Дэдпул. Том 4',
-      description:
-        'Немногие — герои, злодеи, наёмники и другие — способны затмить Удивительного Человека- ',
+      name: '3D-Man (Трехмерный Человек)',
+      link: 'https://www.strangearts.ru/heroes/3d-man',
     },
     {
-      id: '5',
-      Image: Comics1,
-      title: 'Эра Альтрона. Книга 2',
-      description: 'Финал эпического путешествия сквозь время и пространство',
+      name: 'Abomination (Мерзость)',
+      link: 'https://www.strangearts.ru/heroes/abomination',
     },
     {
-      id: '6',
-      Image: Comics2,
-      title: 'Эра Альтрона. Книга 1',
-      description: 'Комикс, вдохновивший блокбастер "Мстители 2"!',
+      name: 'Abraham Van Helsing (Абрахам Ван Хельсинг)',
+      link: 'https://www.strangearts.ru/heroes/van-helsing',
     },
     {
-      id: '7',
-      Image: Comics3,
-      title: 'Гамбит. Том 1. Рожденный вором...',
-      description: 'главный вор-мутант вселенной Marvel взваливает на себя слишком много, ',
-    },
-    {
-      id: '8',
-      Image: Comics4,
-      title: 'Дэдпул. Том 3',
-      description:
-        'Когда Циклоп объявил на весь мир, что Люди Икс создают на острове пристанище для мутантов,',
-    },
-    {
-      id: '9',
-      Image: Comics5,
-      title: 'Дэдпул. Том 4',
-      description:
-        'Немногие — герои, злодеи, наёмники и другие — способны затмить Удивительного Человека- ',
+      name: 'Abraxas (Абраксас)',
+      link: 'https://www.strangearts.ru/heroes/abraxas',
     },
   ];
