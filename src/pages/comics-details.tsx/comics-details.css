@@ -3,7 +3,8 @@
 }
 
 .comics-details__image {
-    width: 100%;
+    margin-left: 70vh;
+    width: 50vh;
     height: 50vh;
 }
 
