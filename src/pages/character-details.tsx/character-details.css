@@ -1,0 +1,31 @@
+.character-details {
+    color: black;   
+}
+
+.character-details__image {
+    margin-left: 70vh;
+    width: 50vh;
+    height: 60vh;
+}
+
+.character-details__title {
+    font-size: 28px;
+}
+
+.character-details__content {
+    display: flex;
+}
+
+.character-details__comics {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+}
+
+.character-details__comics a {
+    margin-bottom: 10px;
+}
+
+.character-details__comics h5 {
+    font-size: 24px;
+}
